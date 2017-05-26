@@ -4,5 +4,14 @@ import webbrowser
 import time
 
 youtube_video = "https://www.youtube.com/watch?v=1Wh8RzcQZr4"
-time.sleep(3)
-webbrowser.open(youtube_video)
+
+
+breaks_counter = input('How many breaks do you want to take today? ')
+breaks_counter_int = int(breaks_counter)
+
+counter = 0;
+while(counter < breaks_counter_int):
+    time.sleep(2)
+    webbrowser.open(youtube_video)
+    counter+=1
+
