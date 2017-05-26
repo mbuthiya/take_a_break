@@ -11,7 +11,7 @@ breaks_counter_int = int(breaks_counter)
 
 counter = 0;
 while(counter < breaks_counter_int):
-    time.sleep(2)
+    time.sleep(120)
     webbrowser.open(youtube_video)
     counter+=1
 
